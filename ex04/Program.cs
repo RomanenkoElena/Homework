@@ -3,9 +3,9 @@
 int numberA = new Random().Next(1, 100);
 int numberB = new Random().Next(1, 100);
 int numberC = new Random().Next(1, 100);
-Console.WriteLine($"Первое число {numberA}");
-Console.WriteLine($"Второе число {numberB}");
-Console.WriteLine($"Третье число {numberC}");
+Console.WriteLine($"Вводим первое число {numberA}");
+Console.WriteLine($"Вводим второе число {numberB}");
+Console.WriteLine($"Вводим третье число {numberC}");
 int max_number = numberA;
 if (numberB > numberA)
 {

@@ -2,8 +2,8 @@
 
 int numberA = new Random().Next(1, 100);
 int numberB = new Random().Next(1, 100);
-Console.WriteLine($"Первое число {numberA}");
-Console.WriteLine($"Второе число {numberB}");
+Console.WriteLine($"Вводим первое число {numberA}");
+Console.WriteLine($"Вводим второе число {numberB}");
 if (numberB > numberA)
 {
    Console.WriteLine($"Число {numberB} большее, число {numberA} меньшее"); 
